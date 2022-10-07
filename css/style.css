@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid black;
+}
+
+.header p{
+    padding: 0 5%;
+    display:block;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+.header .hamburger{
+    display: none;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .navbar{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5%;
+    height: auto;
+}
+
+.header .navbar img{
+    width: 100%;
+    min-width: 50px;
+    max-width: 150px;
+    height: 100%;
+    min-height: 50px;
+    max-height: 100px;
+}
+
+nav .nav-button{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav-button .nav-list{
+    border-radius: 1.5rem;
+    padding: 10px;
+}
+.nav-button .nav-list:hover {
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.nav-button .nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav .nav-list #linkFirstChild{
+    color: red !important;
+}
+.icon-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-container label{
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    padding: 5px;
+}
+
+.icon-container label:hover{
+    cursor: pointer;
+}
+
+label input{
+    border: none;
+    outline: none;
+}
+

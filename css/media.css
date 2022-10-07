@@ -1,0 +1,28 @@
+@media screen and (max-width: 500px) {
+    .header .nav-button,
+     #gift-icon{
+        display: none;
+    }
+
+    .icon-container label{
+        display: none;
+    }
+
+    .header .hamburger{
+        display: block;
+    }
+    .header .hamburger i:hover{
+        cursor: pointer;
+    }
+
+    .header .navbar img{
+        width: 100%;
+        min-width: 200px;
+    }
+
+    .icon-container{
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+    }
+}
